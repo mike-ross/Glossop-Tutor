@@ -1,302 +1,307 @@
-
 html,
 body {
-  height:100%;
-  min-width:480px;
+	height:100%;
+	min-width:480px;
 }
 
 body {
-  position: relative;
-  padding-top: 70px;
-  color: #fce8f9;
-  background-color: #00031A;
-  background-image: url('../images/pageBG.png');
-  background-size: 100%;
-  background-repeat: repeat-y;
+	position: relative;
+	padding-top: 70px;
+	color: #fce8f9;
+	background-color: #00031A;
+	background-image: url('../images/pageBG.png');
+	background-size: 100%;
+	background-repeat: repeat-y;
+}
+
+img {
+	width: auto;
+	height: auto;
+	max-width: 100%;
 }
 
 .navbar {
-  background-color: #0e0745;
+	background-color: #0e0745;
 }
 
 .nav li a{
-  color: #fce8f9;
+	color: #fce8f9;
 }
 
 .nav li a:hover {
-  background-color: #00031A;
+	background-color: #00031A;
 }
 
 #title {
-  text-align: center;
-  margin-top: -50px;
-  text-shadow: 3px 2px 5px #9C9C9C;
+	text-align: center;
+	margin-top: -50px;
+	text-shadow: 3px 2px 5px #9C9C9C;
 }
 
 #listIcon {
-  height: 40px;
-  padding: 0;
+	height: 40px;
+	padding: 0;
 }
 
 #listIcon img {
-  height: 100%;
+	height: 100%;
 }
 
 a {
-  text-decoration: inherit;
-  color: inherit;
+	text-decoration: inherit;
+	color: inherit;
 }
 
 a:hover {
-  text-decoration: underline;
-  color: inherit;
+	text-decoration: underline;
+	color: inherit;
 }
 
 #aboutBlackboard {
-  width: 80%;
-  margin-left: 10%;
-  margin-right: 10%;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 
 #blackboard {
-  width: 90%;
-  box-shadow: 5px 5px 15px black;
-  margin-left: 5%;
-  margin-right: 5%;
+	width: 90%;
+	box-shadow: 5px 5px 15px black;
+	margin-left: 5%;
+	margin-right: 5%;
 }
 
 #blackboard:hover {
-  box-shadow: 0 0 35px white;
+	box-shadow: 0 0 35px white;
 }
 
 #frontText {
-  text-align: center;
-  clear: both;
-  margin-top: 60px;
-  margin-bottom: 60px;
+	text-align: center;
+	clear: both;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 
 .links img {
-  width: 60% !important;
-  margin-left: 20%;
-  margin-right: 20%;
-  margin-top: 0;
-  opacity: 0.7;
+	width: 60% !important;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 0;
+	opacity: 0.7;
 }
 
 .links div {
-  height: 45px;
-  margin-bottom: 20px;
-  overflow: hidden;
-  z-index: 10;
+	height: 45px;
+	margin-bottom: 20px;
+	overflow: hidden;
+	z-index: 10;
 }
 
 .links div:hover {
-  overflow: visible;
+	overflow: visible;
 }
 
 a img:hover {
-  opacity: 1;
+	opacity: 1;
 }
 
 a.anchor {
-  display: block;
-  position: relative;
-  top: -70px;
-  visibility: hidden;
+	display: block;
+	position: relative;
+	top: -70px;
+	visibility: hidden;
 }
 
 .featurette h2.hidden-xs {
-  padding: 7px 2px 2px 10px;
-  background-image: url('../images/featuretteBG.png');
-  background-size: 75% 100%;
-  background-repeat: no-repeat;
+	padding: 7px 2px 2px 10px;
+	background-image: url('../images/featuretteBG.png');
+	background-size: 75% 100%;
+	background-repeat: no-repeat;
 }
 
 .featurette h2.visible-xs {
-  text-align: center;
-  padding: 7px 2px 2px 10px;
-  background-image: url('../images/featuretteBGxs.png');
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
+	text-align: center;
+	padding: 7px 2px 2px 10px;
+	background-image: url('../images/featuretteBGxs.png');
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
 
 .featurette p {
-  padding-left: 10px;
+	padding-left: 10px;
 }
 
 .featurette-image {
-  width: 100%;
-  opacity: 0.6;
+	width: 100%;
+	opacity: 0.6;
 }
 
 .table {
-  width: 50%;
+	width: 50%;
 }
 
 .table tbody td {
-  width: 100%;
+	width: 100%;
 }
 
 .quoteDiv {
-  margin-top: 15px;
-  margin-bottom: 5px;
+	margin-top: 15px;
+	margin-bottom: 5px;
 }
 
 .testimonial {
-  margin: 0;  
-  background: #B7EDFF;
-  padding: 10px 50px;
-  position: relative;
-  font-family: Georgia, serif;
-  color: #002B42;
-  border-radius: 5px;
-  font-style: italic;
-  text-shadow: 0 1px 0 #ECFBFF;
-  background-image: linear-gradient(#CEF3FF, #B7EDFF);
-  opacity: 0.5;
+	margin: 0;
+	background: #B7EDFF;
+	padding: 10px 50px;
+	position: relative;
+	font-family: Georgia, serif;
+	color: #002B42;
+	border-radius: 5px;
+	font-style: italic;
+	text-shadow: 0 1px 0 #ECFBFF;
+	background-image: linear-gradient(#CEF3FF, #B7EDFF);
+	opacity: 0.5;
 }
 
 .testimonial:before,
 .testimonial:after {
-  content: "\201C";
-  position: absolute;
-  font-size: 60px;
-  line-height: 1;
-  color: #002B42;
-  font-style: normal;
+	content: "\201C";
+	position: absolute;
+	font-size: 60px;
+	line-height: 1;
+	color: #002B42;
+	font-style: normal;
 }
 
 .testimonial:before {
-  top: 0;
-  left: 10px;
+	top: 0;
+	left: 10px;
 }
 
 .testimonial:after {
-  content: "\201D";
-  right: 10px;
-  bottom: -0.5em;
+	content: "\201D";
+	right: 10px;
+	bottom: -0.5em;
 }
 
 .arrow-down {
-  width: 0;
-  height: 0;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  border-top: 15px solid #B7EDFF;
-  margin: 0 0 0 25px;
-  opacity: 0.5;
+	width: 0;
+	height: 0;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid #B7EDFF;
+	margin: 0 0 0 25px;
+	opacity: 0.5;
 }
 
 .testimonial-author {
-  margin: 0 0 0 25px;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #ffffff;
-  text-align:left;
+	margin: 0 0 0 25px;
+	font-family: Arial, Helvetica, sans-serif;
+	color: #ffffff;
+	text-align:left;
 }
 
 .testimonial-author span {
-  font-size: 12px;
-  color: #999;
+	font-size: 12px;
+	color: #999;
 }
 
 .navbar-brand {
-  position: absolute;
-  left: 35px;  
-  font-size: 30px;
+	position: absolute;
+	left: 35px;
+	font-size: 30px;
 }
 
 .navbar-brand img {
-  height: 100px;
+	height: 100px;
 }
 
 
 
 /*Side Scrollspy Navbar*/
 .navbar-side {
-  position: fixed;
-  left: 0;
-  height: 100%;
-  border: none;
-  margin-top: 60px;
-  overflow-y: auto;
+	position: fixed;
+	left: 0;
+	height: 100%;
+	border: none;
+	margin-top: 60px;
+	overflow-y: auto;
 }
 
 .navbar-side li {
-  display: block;
-  clear: both;
+	display: block;
+	clear: both;
 }
 
 .navbar-side img {
-  height: 100px;
-  margin-bottom: 5px;
-  opacity: 0.6;
+	height: 100px;
+	margin-bottom: 5px;
+	opacity: 0.6;
 }
 
 .navbar-side img:hover {
-  opacity: 1;
+	opacity: 1;
 }
 
 .navbar-side .active img {
-  opacity: 1;
+	opacity: 1;
 }
 
 
 /*Front page top mobile navbar*/
 
 .mobileNav {
-  padding-bottom: 0;
-  margin-bottom: 20px;
-  margin-top: -50px;
+	padding-bottom: 0;
+	margin-bottom: 20px;
+	margin-top: -50px;
 }
 
 .mobileNav div {
-  color: white;
-  text-shadow: 1px 1px 1px black;
-  padding: 5px 5px 5px 5px;
-  text-align: center;
-  border-radius: 10px;
-  background-color: rgba(255, 255, 255, 0.2);
+	color: white;
+	text-shadow: 1px 1px 1px black;
+	padding: 5px 5px 5px 5px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: rgba(255, 255, 255, 0.2);
 }
 
 .mobileNav div:hover {
-  background-color: rgba(255, 255, 255, 0.5);
+	background-color: rgba(255, 255, 255, 0.5);
 }
 
 
 
 /* Wrapper for page content to push down footer */
 #wrap {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  /* Negative indent footer by it's height */
-  margin: 0 auto -80px;
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	/* Negative indent footer by it's height */
+	margin: 0 auto -80px;
 }
 
 #push,
 #footer {
-  height: 80px;
+	height: 80px;
 }
 
 .advert {
-  width: 100%;
-  height: 200px;
-  border: solid 1px black;
-  box-shadow: 5px 5px 5px black;
-  background-color: white;
-  color: black;
-  margin-top: 100px;
-  margin-bottom: 25px;
+	width: 100%;
+	height: 200px;
+	border: solid 1px black;
+	box-shadow: 5px 5px 5px black;
+	background-color: white;
+	color: black;
+	margin-top: 100px;
+	margin-bottom: 25px;
 }
 
 #phoneNum,
 #emailAd {
-  display: inline-block;
-  width: 45%;
+	display: inline-block;
+	width: 45%;
 }
 
 #facebook {
-  display: inline-block;
-  width: 10%;
+	display: inline-block;
+	width: 10%;
 }
