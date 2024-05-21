@@ -11,7 +11,7 @@ jobs:
 
     steps:
     - name: Checkout the repo
-      uses: actions/checkout@master
+      uses: actions/checkout@v4
       with:
         fetch-depth: 0
 
@@ -22,7 +22,7 @@ jobs:
         base-url-path: https://glossoptutor.co.uk/
 
     - name: Create Pull Request
-      uses: peter-evans/create-pull-request@v3
+      uses: peter-evans/create-pull-request@v6
       with:
         title: "Automated sitemap update"
         body: >
