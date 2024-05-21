@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://glossoptutor.co.uk/sitemap.xml
