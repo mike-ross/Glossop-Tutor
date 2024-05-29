@@ -21,7 +21,7 @@ jobs:
       with:
         base-url-path: https://glossoptutor.co.uk/
         drop-html-extension: true
-        exclude-paths: /google675b5f99d738b479.html
+        exclude-paths: /404.html /google675b5f99d738b479.html
 
     - name: Create Pull Request
       uses: peter-evans/create-pull-request@v6
